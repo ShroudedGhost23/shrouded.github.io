@@ -11,10 +11,6 @@
     background: url(disconnected.gif);
 }
 
-.ds4.disconnected div {
-    display: none;
-}
-
 .ds4 .triggers {
     width: 588px;
     height: 90px;
@@ -25,7 +21,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(triggersmod.PNG);
+    background: url(triggersmod.png);
     opacity: 0;
 }
 
@@ -97,14 +93,6 @@
     float: right;
     /* width: 28px; */
     background-position: 28px 0;
-}
-
-.ds4 .abxy {
-    position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
 }
 
 .ds4 .button {
@@ -228,6 +216,3 @@
 
 .ds4.half {
     margin-top: -300px;
-}
-
-/*END PS4 Controller Styling*/
